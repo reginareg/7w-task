@@ -8,27 +8,33 @@
     <link rel="stylesheet" href="./layout.css" />
   </head>
   <body>
-    <div>
+    <div class="contaner">
       <header class="hello">Get In Touch</header>
       <table>
         <form class="form">
-          <div class="form-row size position first">
-            <label class="label">First name</label>
+          <div class="row1">
+            <input
+              type="text"
+              placeholder="First Name"
+              class="first"
+              required
+            />
+            <input type="text" placeholder="Last Name" class="first" required />
           </div>
-          <div class="form-row size position first">
-            <label class="label">Last name</label>
+          <div class="row2">
+            <input type="text" placeholder="Email" class="second" required />
+            <input type="text" placeholder="Phone" class="second" required />
           </div>
-          <div class="form-row size position second">
-            <label class="label">Email</label>
+          <div class="row3">
+            <input type="text" placeholder="Address" class="third" required />
           </div>
-          <div class="form-row size position second">
-            <label class="label">Phone</label>
-          </div>
-          <div class="form-row size third">
-            <label class="label">Address</label>
-          </div>
-          <div class="form-row size fourth">
-            <label class="label">Type your message here</label>
+          <div class="row4">
+            <input
+              type="text"
+              placeholder="Type your message here"
+              class="fourth"
+              required
+            />
           </div>
         </form>
       </table>
